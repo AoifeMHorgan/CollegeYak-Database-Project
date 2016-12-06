@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f73e779be93f47b7a1578ca89323678e" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.ALERT" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.COLLEGE" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FOLLOWING" Width="1.5" PointX="9.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MEMBER" Width="1.5" PointX="7.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POST" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.REPORT" Width="1.5" PointX="9.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.VOTE" Width="1.5" PointX="12.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POST_VIEW" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.VOTEDOWN_VIEW" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.VOTEUP_VIEW" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_ALERT_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ALERT_REPORT_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ALERTED_USERNAME" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_POST_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_COLLEGE_NAME" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_MEMBER_COLLEGE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FOLLOWER_UN" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FOLLOWING_UN" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERNAME_OP" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERNAME_POSTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERNAME_REPORT" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERNAME_VOTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_VOTED_POST_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.ACTIVITY" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

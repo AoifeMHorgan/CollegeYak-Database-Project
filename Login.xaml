@@ -1,0 +1,22 @@
+﻿<Window x:Class="CollegeYak.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollegeYak"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="300"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Rectangle Fill="#FFE31C60" HorizontalAlignment="Left" Height="79" Stroke="Black" VerticalAlignment="Top" Width="292" StrokeThickness="0"/>
+        <Label x:Name="label" Content="CollegeYak" HorizontalAlignment="Left" Margin="91,23,0,0" VerticalAlignment="Top" Foreground="#FFFBF2F2" FontWeight="Bold" FontSize="22"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="25,229,0,0" VerticalAlignment="Top" Width="239" Height="30" RenderTransformOrigin="0.395,1.763" FontSize="16"/>
+        <TextBox x:Name="txtUser" HorizontalAlignment="Left" Height="30" Margin="25,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239" FontSize="16"/>
+        <Label x:Name="label1" Content="* Username:" HorizontalAlignment="Left" Margin="25,115,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="label1_Copy" Content="* Password:" HorizontalAlignment="Left" Margin="25,203,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="btnLogInUser" Content="Log In" HorizontalAlignment="Left" Margin="25,318,0,0" VerticalAlignment="Top" Width="239" Height="46" Click="btnLogInUser_Click" Background="#FFE31C60" Foreground="#FFF5EEEE" FontSize="16" FontWeight="Bold"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="92" Margin="14,18,0,0" VerticalAlignment="Top" Width="49" Source="back.png"/>
+        <Label x:Name="lblBack" Content="" HorizontalAlignment="Left" Margin="20,23,0,0" VerticalAlignment="Top" Height="56" Width="37" MouseDoubleClick="lblBack_MouseDoubleClick"/>
+
+    </Grid>
+</Window>

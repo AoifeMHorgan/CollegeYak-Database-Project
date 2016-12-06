@@ -1,0 +1,35 @@
+﻿<Window x:Class="CollegeYak.UsersProfile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollegeYak"
+        mc:Ignorable="d"
+        Title="Users Profile" Height="500" Width="300"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-31">
+        <Rectangle Fill="#FFE31C60" HorizontalAlignment="Left" Height="79" Stroke="Black" VerticalAlignment="Top" Width="292" StrokeThickness="0"/>
+        <Label x:Name="label" Content="CollegeYak" HorizontalAlignment="Left" Margin="91,23,0,0" VerticalAlignment="Top" Foreground="#FFFBF2F2" FontWeight="Bold" FontSize="22"/>
+        <Label x:Name="label1" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Width="101"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="29" Margin="10,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" IsEnabled="False"/>
+        <TextBox x:Name="txtCollege" HorizontalAlignment="Left" Height="30" Margin="10,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="29" Margin="158,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109"/>
+        <Label x:Name="label2" Content="Your Name" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Your Password" HorizontalAlignment="Left" Margin="158,192,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Your College" HorizontalAlignment="Left" Margin="10,268,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAge" HorizontalAlignment="Left" Height="30" Margin="209,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="label5" Content="Your Age" HorizontalAlignment="Left" Margin="209,268,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="30" Margin="10,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174"/>
+        <TextBox x:Name="txtCEmail" HorizontalAlignment="Left" Height="30" Margin="209,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58" IsEnabled="False"/>
+        <Label x:Name="label4_Copy" Content="Your Email" HorizontalAlignment="Left" Margin="10,342,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4_Copy1" Content="Email Confirmed?" HorizontalAlignment="Left" Margin="189,342,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="imgProfile" HorizontalAlignment="Left" Height="100" Margin="91,87,0,0" VerticalAlignment="Top" Width="106" Source="user-128.png"/>
+        <Button x:Name="btnPhoto" Content="Change" HorizontalAlignment="Left" Margin="209,156,0,0" VerticalAlignment="Top" Width="75" Click="btnPhoto_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="91,416,0,0" VerticalAlignment="Top" Width="106" RenderTransformOrigin="-0.253,-1.05" Height="39" Background="#FFE31C60" Foreground="#FFF9F6F6" FontSize="16" FontWeight="Bold" Click="btnUpdate_Click"/>
+        <Label x:Name="label6" Content="*Cannot change username" HorizontalAlignment="Left" Margin="8,242,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.132,0.269" Foreground="#FFF71616"/>
+        <Image x:Name="imageBack" HorizontalAlignment="Left" Height="75" Margin="10,18,0,0" VerticalAlignment="Top" Width="51" Source="back.png"/>
+        <Label x:Name="lblBack" Content="" HorizontalAlignment="Left" Margin="20,23,0,0" VerticalAlignment="Top" Height="56" Width="37" MouseDoubleClick="lblBack_MouseDoubleClick"/>
+
+
+    </Grid>
+</Window>
